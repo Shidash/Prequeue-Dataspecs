@@ -1,0 +1,175 @@
+[
+  {
+    "Field Name": "conference_name",
+    "Human Readable Name": "Conference Name",
+      "Type": "String",
+      "Mapping": "english",
+    "Form Params": "conference_name",
+    "Location": "0",
+    "Display Type": "Title",
+    "Icon": "analysis"
+  },{
+    "Field Name": "conference_frequency",
+    "Human Readable Name": "Conference Frequency",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "conference_frequency",
+    "Location": "1",
+    "Icon": "building"
+  },
+   {
+	"Field Name": "conference_location",
+	"Human Readable Name": "Conference Location",
+	"Type": "String",
+	"Display Type": "Category",
+	"Mapping": "english",
+	"Form Params": "conference_location",
+	"Location": "2",
+	"Icon": "building"
+   },
+    {
+	"Field Name": "conference_timing",
+	"Human Readable Name": "Conference Timing",
+	"Type": "String",
+	"Display Type": "Category",
+	"Mapping": "english",
+	"Form Params": "conference_timing",
+	"Location": "3",
+	"Icon": "conference_timing"
+    },
+    {
+    "Field Name": "conference_organizer",
+    "Human Readable Name": "Conference Organizer",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "conference_organizer",
+    "Location": "4",
+    "Icon": "countries"
+  },{
+    "Field Name": "conference_link",
+    "Human Readable Name": "Conference Link",
+    "Type": "String",
+    "Display Type": "Link",
+    "Mapping": "not-analyzed",
+    "Form Params": "conference_link",
+    "Location": "5",
+    "Icon": "geopoint"
+  },{
+    "Field Name": "conference_topic",
+    "Human Readable Name": "Conference Topic",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "conference_topic",
+    "Location": "6",
+    "Icon": "industry"
+  },{
+      "Field Name": "year_conference_name",
+      "Human Readable Name": "Year Conference Name",
+      "Type": "String",
+      "Display Type": "Short Text",
+      "Mapping": "english",
+      "Form Params": "year_conference_name",
+      "Location": "7",
+      "Icon": "money"
+  },
+    {
+    "Field Name": "exact_start_date",
+    "Human Readable Name": "Exact Start Date",
+    "Type": "Date",
+    "Display Type": "Date",
+    "Mapping": "not-analyzed",
+	"Form Params": ["exact_start_date", "end_exact_start_date"],
+    "Location": "8",
+    "Icon": ""
+    },
+    {
+	"Field Name": "exact_end_date",
+	"Human Readable Name": "Exact End Date",
+	"Type": "Date",
+	"Display Type": "Date",
+	"Mapping": "not-analyzed",
+	"Form Params": ["exact_end_date", "end_exact_end_date"],
+	"Location": "9",
+	"Icon": ""
+    },
+    {
+    "Field Name": "talk_given",
+    "Human Readable Name": "Talk Given?",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "talk_given",
+    "Location": "10",
+    "Icon": "work"
+    },
+    {
+	"Field Name": "proposal_deadline",
+	"Human Readable Name": "Proposal Deadline",
+	"Type": "Date",
+	"Display Type": "Date",
+	"Mapping": "not-analyzed",
+	"Form Params": ["proposal_deadline", "end_proposal_deadline"],
+	"Location": "11",
+	"Icon": ""
+    },
+    {
+    "Field Name": "talk_title",
+    "Human Readable Name": "Talk Title",
+    "Type": "String",
+    "Display Type": "Short Text",
+    "Mapping": "english",
+    "Form Params": "talk_title",
+    "Location": "12",
+    "Icon": ""
+  },{
+    "Field Name": "talk_video",
+    "Human Readable Name": "Talk Video",
+    "Type": "String",
+    "Display Type": "Link",
+    "Mapping": "not_analyzed",
+    "Form Params": "talk_video",
+    "Location": "13",
+    "Icon": ""
+  },{
+    "Field Name": "attended",
+    "Human Readable Name": "Attended?",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "attended",
+      "Location": "14",
+      "Icon": ""
+  },{
+      "Field Name": "upcoming",
+      "Human Readable Name": "Upcoming?",
+      "Type": "String",
+      "Display Type": "Category",
+      "Mapping": "english",
+      "Form Params": "news",
+      "Location": "15",
+      "Icon": ""
+  },
+    {
+    "Field Name": "notes",
+    "Human Readable Name": "Notes",
+    "Type": "String",
+    "Display Type": "Description",
+    "Mapping": "english",
+    "Form Params": "notes",
+	"Location": "16",
+	"Truncate": "200",
+    "Icon": "briefcase"
+  },{
+    "Field Name": "type",
+    "Human Readable Name": "Type",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "type",
+    "Location": "1",
+    "Icon": "building"
+  }
+]

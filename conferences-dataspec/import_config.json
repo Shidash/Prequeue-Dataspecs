@@ -1,0 +1,9 @@
+{
+  "Synonym List": "app/synonyms/ic_synonyms",
+  "Ignore List": "",
+  "ID Field": "conference_name",
+  "Secondary ID": ["exact_start_date"],
+    "Deduplicate Ignore": [],
+    "Deduplicate Prioritize": "",
+  "Get ID After": ""
+}
